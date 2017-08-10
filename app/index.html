@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Recipe Puppy!</title>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="searchBar">
+      <input id="search" type="text" name="title" value="Title">
+      <!-- <input type="ingredient" name="ingredients" value="ingredients"> -->
+      <button  id="searchButton" type="button" name="button">search</button>
+      </div>
+<div class="searchArea row">
+
+
+
+
+</div>
+
+<script id="puppy-template" type="text/x-handlebars-template">
+
+    <div class="col-md-3">
+  <div class="img"> <img src="{{thumbnail}}" alt=""> </div>
+  <div class="title">{{title}}</div>
+  <div class="ingredients">{{ingredients}}</div>
+</div>
+
+</script>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
