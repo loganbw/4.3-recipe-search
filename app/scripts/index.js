@@ -45,7 +45,7 @@ function displayFood(foodList){
 
    foodList.forEach(function(food){
      let $searchResultHtml = $(template(food));
-    $('.searchArea').append($searchResultHtml);
+    $('.searchResults').append($searchResultHtml);
   });
 
 
